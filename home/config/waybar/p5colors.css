@@ -1,0 +1,9 @@
+@define-color primary-color rgb(13, 13, 13);          /* #0d0d0d */
+@define-color background-color-dark rgb(217, 35, 35); /* #d92323 */
+@define-color highlight-color rgb(115, 36, 36);       /* #732424 */
+@define-color battery-charging-color rgb(140, 103, 35); /* #8c6723 */
+@define-color battery-warning-color rgb(242, 232, 82); /* #f2e852 */
+@define-color battery-critical-color rgb(180, 60, 60); /* #f53c3c */
+@define-color text-color-light rgb(255, 255, 255);    /* #ffffff */
+@define-color text-color-dark rgb(13, 13, 13);        /* #0d0d0d */
+@define-color text-color-danger rgb(117, 35, 35);     /* #d92323 */
