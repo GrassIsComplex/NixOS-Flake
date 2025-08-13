@@ -29,6 +29,7 @@
 	environment.systemPackages = with pkgs; [
 		hyprpolkitagent
 		hyprpaper
+		hyprshot
 		kitty
 		libnotify
 		brightnessctl
