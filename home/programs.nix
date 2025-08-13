@@ -39,6 +39,7 @@
 				plenary-nvim
 				telescope-nvim
 				which-key-nvim
+				blink-cmp
 			];
 		};
 	};
