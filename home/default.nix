@@ -9,6 +9,7 @@
 	imports = [
 		flatpaks.homeModule
 		./flatpak.nix
+		./services.nix
 		./programs.nix
 		./browser.nix
 		./config.nix

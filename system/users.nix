@@ -5,6 +5,7 @@
 	users.users = {
 		grass = {
 			isNormalUser = true;
+			shell = pkgs.fish;
 			extraGroups = [ 
 				"wheel"
 				"libvirtd" 

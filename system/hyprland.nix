@@ -27,6 +27,7 @@
 	};
 
 	environment.systemPackages = with pkgs; [
+		hyprpolkitagent
 		hyprpaper
 		kitty
 		libnotify
@@ -38,5 +39,6 @@
 		qt5.qtwayland
 		qt6.qtwayland
 		wl-clipboard
+		udiskie
 	];
 }

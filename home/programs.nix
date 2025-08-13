@@ -25,12 +25,32 @@
 		lutris = {
 			enable = true;
 			runners = {
-				#cemu.package = pkgs.cemu;
+				pcsx2.package = pkgs.pcsx2;
+				cemu.package = pkgs.cemu;
 			};
+		};
+		neovim = {
+			enable = true;
+			plugins = with pkgs.vimPlugins; [
+				lazy-nvim
+				lazydev-nvim
+				kanagawa-nvim
+				nvim-lspconfig
+				plenary-nvim
+				telescope-nvim
+				which-key-nvim
+			];
 		};
 	};
 	
 	home.packages = with pkgs; [
+		#LSP
+		lua-language-server
+		pyright
+		rust-analyzer
+
+		aseprite
+		godot
 		blender
 		gimp
 		orca-slicer

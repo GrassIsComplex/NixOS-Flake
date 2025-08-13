@@ -16,6 +16,9 @@
 			# Coding
 			gnumake
 			cmake
+			gcc
+			lua
+			python3
 			rustup
 			zig
 			raylib

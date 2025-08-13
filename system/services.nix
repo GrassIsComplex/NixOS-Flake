@@ -4,6 +4,16 @@
 		# Enable SSH service
 		openssh.enable = true;
 
+		# Configure Avahi
+		avahi = {
+			enable = true;
+			nssmdns4 = true;
+			publish = {
+				enable = true;
+				addresses = true;
+			};
+		};
+
 		# Enable flatpak
 		flatpak.enable = true;
 
@@ -37,5 +47,7 @@
 
 		# Enable touchpad support
 		libinput.enable = true;
+
+		tailscale.enable = true;
 	};
 }

@@ -6,6 +6,7 @@
       ./hardware-configuration.nix
       ./boot.nix
       ./environment.nix
+      ./programs.nix
       ./networking.nix
       ./services.nix
       ./users.nix
