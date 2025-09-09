@@ -57,7 +57,7 @@ window#waybar{
 	border-radius: 8px;
 	margin: 4px 3px;
 	padding: 2px 12px;
-	background-color: @secondary-color;
+	background-color: @primary-color;
 	color: #282c34;
 }
 

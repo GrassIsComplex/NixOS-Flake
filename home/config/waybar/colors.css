@@ -1,10 +1,11 @@
-@define-color primary-color rgb(215, 110, 137);           /* #DF6E89 */
-@define-color secondary-color rgb(207, 148, 140);        /* #CF948C */
-@define-color background-color-dark rgb(12, 0, 1);         /* #13000b */
-@define-color highlight-color rgb(196, 179, 143);       /* #C4B38F */
-@define-color battery-charging-color rgb(215, 110, 137);   /* #DF6E89 */
-@define-color battery-warning-color rgb(207, 148, 140);    /* #CF948C */
-@define-color battery-critical-color rgb(96, 46, 59);     /* #602E3B */
-@define-color text-color-light rgb(196, 179, 143);        /* #C4B38F */
-@define-color text-color-dark rgb(2, 3, 0);               /* #020300 */
-@define-color text-color-danger rgb(96, 46, 59);          /* #602E3B */
+@define-color primary-color          #F19C66;
+@define-color background-color-dark  #6A5C5B;
+@define-color highlight-color        #6BAFAE;
+
+@define-color text-color-light       #F1F1F1;
+@define-color text-color-dark        #332c2b;
+@define-color text-color-danger      #262120;
+
+@define-color battery-charging-color #6BAFAE;
+@define-color battery-warning-color  #8C2E2F;
+@define-color battery-critical-color #CF4447;
